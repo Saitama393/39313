@@ -1,7 +1,7 @@
 loadstring(game:HttpGet("https://getnative.cc/script/loader"))()
 wait(0.5)
 game.StarterGui:SetCore("SendNotification", {
-    Title = "Saitama39313 Script Loaded"
+    Title = "Saitama39313 Script Loaded",
     Duration = 3
 })
 local Spawner = 
