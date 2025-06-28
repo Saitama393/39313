@@ -1,10 +1,8 @@
-loadstring(game:HttpGet("https://getnative.cc/script/loader"))()
-wait(0.5)
 game.StarterGui:SetCore("SendNotification", {
     Title = "Saitama39313 Script",
     Text = "Loaded",
-    Duration = 3
+    Duration = 0.5
 })
 local Spawner = 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Vax3478/Vax/refs/heads/main/growagardenkeylesshub-dashscript"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SpaceScriptHUB/petspawner/refs/heads/main/GrowaGardenVisual",true))()
 Spawner.Load()
