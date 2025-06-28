@@ -1,10 +1,9 @@
 loadstring(game:HttpGet("https://getnative.cc/script/loader"))()
 wait(0.5)
 game.StarterGui:SetCore("SendNotification", {
-    Title = "🔔 You must be subscribed to me for 1/2 Day",
-    Text = "Detecting...",
+    Title = "Saitama39313 Script Loaded"
     Duration = 3
 })
 local Spawner = 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/RinHubv4/RinScript/refs/heads/main/PetSpawner"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Vax3478/Vax/refs/heads/main/growagardenkeylesshub-dashscript"))()
 Spawner.Load()
