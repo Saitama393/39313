@@ -4,5 +4,5 @@ game.StarterGui:SetCore("SendNotification", {
     Duration = 0.5
 })
 local Spawner = 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/SpaceScriptHUB/petspawner/refs/heads/main/GrowaGardenVisual",true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MoziIOnTop/MoziIHub/refs/heads/main/GrowaGarden"))()
 Spawner.Load()
