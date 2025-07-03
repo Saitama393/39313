@@ -4,5 +4,5 @@ game.StarterGui:SetCore("SendNotification", {
     Duration = 0.5
 })
 local Spawner = 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/MoziIOnTop/MoziIHub/refs/heads/main/GrowaGarden"))()
+loadstring(game:HttpGet("https://getnative.cc/script/interface", true))()
 Spawner.Load()
