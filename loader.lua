@@ -154,7 +154,7 @@ end
 
 end)local player = game.Players.LocalPlayer
 local screenGui = Instance.new("ScreenGui", player:WaitForChild("PlayerGui"))
-screenGui.Name = "AdrianSpawnerGUI"
+screenGui.Name = "SaitamaSpawnerGUI"
 screenGui.ResetOnSpawn = false
 screenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
@@ -176,7 +176,7 @@ uiCorner.CornerRadius = UDim.new(0, 12)
 local title = Instance.new("TextLabel")
 title.Size = UDim2.new(1, 0, 0, 35)
 title.BackgroundTransparency = 1
-title.Text = "Adrian_Spawner(V2)"
+title.Text = "Saitama_Spawner(V2)"
 title.Font = Enum.Font.SourceSansBold
 title.TextColor3 = Color3.fromRGB(255, 255, 255)
 title.TextSize = 22
@@ -237,7 +237,7 @@ Instance.new("UICorner", spawnButton).CornerRadius = UDim.new(0, 8)
 -- Notification Function
 local function notify(msg)
 game.StarterGui:SetCore("SendNotification", {
-Title = "Adrian Spawner",
+Title = "Saitama Spawner",
 Text = msg,
 Duration = 5
 })
